@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/home.css" /> 
+    <title>Document</title>
+</head>
+<body>
+
+    <nav id="topnav">
+
+        <div class="cinemalogo">
+            <a href="home.html"><img src="images/cinema-logo.jpg" alt="cinema-logo" width="100px"></a>
+        </div>
+
+        <div class="searchbar">
+            <input type="text" placeholder="Search..." name="search">
+            <input type="submit" value="Search">
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Browse.html">Browse</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registration.html">Sign Up</a></li>
+                <li><a href="exercise.html">exercise</a></li>
+            </ul>
+        </div>     
+
+    </nav>
+
+    <main>
+
+        <div class="movie-list">
+            <h2>
+                <br> Recently Released
+            </h2>
+            <ol>
+                <li>Oppenheimer</li>
+                <li>Barbie</li>
+                <li>Mission Impossible: The Dead Reconing</li>
+            </ol>
+        </div>
+
+        <div class="images">
+            <img src="images/oppenheimer-poster.jpeg" alt="oppenheimer-poster" width="15%" height="30%">
+            <img src="images/barbie-poster.jpg" alt="oppenheimer-poster" width="15.85%" height="30%">
+            <img src="images/mission-impossible.jpg" alt="oppenheimer-poster" width="19%" height="30%">
+
+        </div>
+
+        <div class="table">
+
+            <table border="5">
+                <br><caption><b>Barbie VS. Oppenheimer</b></caption>
+                <tr>
+                    <th>CATEGORIES</th>
+                    <th>BARBIE</th>
+                    <th>OPPENHEIMER</th>
+                </tr>
+                <tr>
+                    <td><b>Release Date</b></td>
+                    <td>July 21, 2023</td>
+                    <td>July 21, 2023</td>
+                </tr>
+                <tr>
+                    <td><b>IMDb Rating</b></td>
+                    <td>7.5</td>
+                    <td>8.7</td>
+                </tr>
+                <tr>
+                    <td><b>Budget</b></td>
+                    <td>150 Million</td>
+                    <td>135 Million</td>
+                </tr>
+                <tr>
+                    <td><b>Earning</b></td>
+                    <td>700 Million</td>
+                    <td>500 Million</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
+
+
